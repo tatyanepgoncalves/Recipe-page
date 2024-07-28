@@ -1,0 +1,89 @@
+:root {
+  --bgColor: #573824;
+  --surfaceColor: #f0e8c2;
+  --textColorPrimary: #291b1a;
+  --textColorSecondary: #573a37;
+  --textColorOnBg: #f0e8c2;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Alice", serif;
+}
+
+body {
+  background: url('../images/bg.png');
+  background-size: cover;
+}
+
+#recipe {
+  max-width: 800px;
+  padding: 24px;
+  background-color: var(--surfaceColor);
+  border-radius: 24px;
+  margin: 48px auto 28px;
+}
+
+main {
+  margin: 24px;
+}
+
+section + section {
+  margin-top: 24px;
+}
+
+img {
+  border-radius: 16px;
+}
+
+.about p + p {
+  margin-top: 12px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 140%;
+  color: var(--textColorPrimary);
+  margin-bottom: 4px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 150%;
+  color: var(--textColorPrimary);
+  margin-bottom: 4px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 150%;
+  color:  var(--textColorSecondary);
+}
+
+ul {
+  padding-left: 24px;
+}
+
+li {
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--textColorSecondary);
+}
+
+
+footer {
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+footer p {
+  color: var(--textColorOnBg);
+  font-size: 16px;
+  line-height: 150%;
+}
+
+footer i {
+  vertical-align: middle;
+}
