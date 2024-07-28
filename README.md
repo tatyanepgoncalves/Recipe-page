@@ -11,5 +11,5 @@ O objetivo desse projeto foi colocar em prática o conhecimento básico de desen
 - ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ## 👷 Autores
-- Criado pela **@rocketseat** 
-- Desenvolvido por **@tatyanepgoncalves**
+- Criado pela [@Rocketseat](https://github.com/Rocketseat)
+- Desenvolvido por [@tatyanepgoncalves](https://github.com/tatyanepgoncalves)
